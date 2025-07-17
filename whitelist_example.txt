@@ -1,0 +1,14 @@
+# Minecraft MCA 文件白名单示例
+# 格式：每行一个文件名，支持注释行（以#开头）
+# 
+# 区块文件示例
+r.0.0.mca
+r.0.1.mca
+r.1.0.mca
+r.1.1.mca
+r.-1.-1.mca
+r.-1.0.mca
+r.0.-1.mca
+
+# POI 和 Entities 文件通常与区块文件同名
+# 脚本会在 region、poi、entities 三个目录中查找并清理文件
